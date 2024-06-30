@@ -1,7 +1,11 @@
 import express from 'express'
 import { addFood, listFood, removeFood } from '../controllers/foodController.js'
+<<<<<<< HEAD
 import pkg from 'aws-sdk';
 const { S3 } = pkg;
+=======
+import { S3 } from 'aws-sdk';
+>>>>>>> 415246568e3d3e65bc2bdbe4146446affcda69da
 import multer from 'multer'
 
 const foodRouter = express.Router();
